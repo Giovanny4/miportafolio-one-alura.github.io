@@ -1,0 +1,616 @@
+/* Estilos generales */
+body, main, header, footer 
+{
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+}
+
+/* Estilos nav */
+header 
+{
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+nav 
+{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 
+{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+nav .links 
+{
+    font-size: 1em;
+    width: 50%;
+    padding: 1.5em;
+}
+
+nav .links:hover 
+{
+    font-weight: bold;
+}
+
+nav .links ul 
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav .mail 
+{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+/* Estilos del banner */
+#banner 
+{
+    width: 90%;
+    height: 90vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.foto {
+    width: 50%;
+}
+
+.foto img {
+    width: 80%;
+    border-radius: 50%;
+    box-shadow: black;
+}
+
+.contenedorTextBanner
+{
+    width: 70%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em;
+}
+
+.principal h2 
+{
+    width: 90%;
+    margin: 0;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+.abajo h2 
+{
+    font-size: 1.5em;
+    font-style: normal;
+}
+
+.vinculos 
+{
+    width: 100%;
+}
+
+.vinculosBanner 
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.vinculosBanner li:hover 
+{
+    color: #464646; /*Por revisar*/
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Estilo sobre mi  */
+#about 
+{
+    width: 100%;
+    height: 50vh;
+    background: #EAF2FD;
+}
+
+.sobreMi 
+{
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 2em;
+}
+
+.sobreMi h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/*.textAbout 
+{
+    width: 100%;
+    height: 50vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    font-size: 1em;
+    padding-top: 2em;
+}
+*/
+.textAbout p {
+    margin: 0 1em;
+}
+
+.reloded {
+    font-weight: bold;
+    font-size: 1.3em;
+    font-style: italic;
+    text-align: end;
+    padding-bottom: 1em;
+}
+
+/* Estilo skills */
+.skills 
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.containerSkills, .containerHobbies 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.containerSkills h2 
+{
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.containerHobbies h2 
+{
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.skills, .Hobbies
+{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cardSkill 
+{
+    width: 90px;
+    height: 90px;
+    background-color: #F5F5F5;
+    box-shadow: 5px 5px 5px black;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    justify-content: flex-end;
+}
+
+.cardSkill p
+{
+    font-weight: bold;
+    margin-top: 0.5em;
+    font-size: 1.1em;
+}
+
+.cardHobbies
+{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid #F5F5F5;
+    box-shadow: 5px 5px 5px black;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    justify-content: flex-end;
+}
+
+.cardHobbies p{
+    font-weight: bold;
+    margin-top: 0.5em;
+    font-size: 1em;
+}
+
+/* Estilo Formación */
+.formacion 
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F5F5F5;
+}
+
+.containerFormacion 
+{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.formacion h1 
+{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.cardFormacion {
+    width: 200px;
+    height: 150px;
+    background-color: #FFF;
+    border: 2px solid #F5F5F5;
+    box-shadow: 5px 5px 5px black;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardFormacion p {
+    font-weight: bold;
+    margin-top: .5em;
+    font-size: .7em;
+} 
+
+.ladoA
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ladoB
+{
+    backface-visibility: hidden;
+}
+
+.cardFormacion:hover 
+{
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+    transition: all .7s linear;
+}
+
+.ladoA
+{
+    backface-visibility: hidden;
+}
+
+.ladoB
+{
+    transform: rotateY(180deg);
+    visibility: visible;
+    position: fixed;
+    padding: 1em;
+    transition: 1s;
+}
+
+.ladoB .logro
+{
+    color: #CD5C5C;
+}
+
+/* Estilo Proyectos */
+#proyectos 
+{
+    width: 100%;
+    height: auto;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+}
+
+#proyectos h1 
+{
+    font-size: 1em;
+    font-weight: bold;
+    margin: 1em;
+    text-align: center;
+}
+
+.cardProject 
+{
+    width: 80%;
+    margin: 0 auto;
+    align-items: flex-start;
+    display: flex;
+    padding: 4em 0;
+    align-items: center;
+}
+
+.cardProject .img 
+{
+    width: 50%;
+    margin-right: 2em;
+}
+
+.cardProject .img img:hover 
+{
+    width: 100%;
+    transition: 500ms;
+}
+
+.cardProject .descripcion 
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.cardProject h2 
+{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: .5em 0;
+}
+
+.cardProject .botones 
+{
+    margin-top: 1em;
+}
+
+.cardProject .botones .github 
+{
+    border: none;
+    background-color: #0000FF;
+    width: 12em;
+    height: 3em;
+    margin-right: 1em;    
+}
+
+.cardProject .botones .github a 
+{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.cardProject .botones .github:hover 
+{
+    background-color: #F5F5F5;
+    font-weight: bold;
+}
+
+.cardProject .botones .demo 
+{
+    border: none;
+    background-color: #FFF;
+    color: #0000FF;
+    border: 2px solid #0000FF;
+    width: 12em;
+    height: 3em;
+    margin-right: 1em;    
+}
+
+.cardProject .botones .demo a 
+{
+    text-decoration: none;
+    color: #0000FF;
+}
+
+.cardProject .botones .demo:hover 
+{
+    background-color: #F5F5F5;
+    color: #000;
+    font-weight: bold;
+}
+
+.cardProyect2
+{
+    width: 80%;
+    margin: 0 auto;
+    align-items: flex-end;
+    display: flex;
+    padding: 2em;
+    align-items: center;
+}
+
+.cardProyect2 .img
+{
+    width: 50%;
+    margin-left: 2em;
+}
+
+.cardProyect2 .img img:hover
+{
+    width: 110%;
+    transition: 500ms;
+} 
+
+.cardProyect2 .descripcion
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.cardProyect2 h2
+{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0.5em 0;
+}
+
+.cardProyect2 .botones
+{
+    margin-top: 1em;
+}
+
+.cardProyect2 .botones .github 
+{
+    border: none;
+    background-color: #0000FF;
+    color: #FFF;
+    width: 12em;
+    height: 3em;
+    margin-right: 1em;
+    text-decoration: none;  
+}
+
+.cardProyect2 .botones .github a
+{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.cardProyect2 .botones .github:hover
+{
+    background-color: #F5F5F5;
+    color: #000000;
+    font-weight: bold;
+}
+
+.cardProyect2 .botones .demo
+{
+    border: none;
+    background-color: #FFF;
+    color: #0000FF;
+    border: 2px solid #0000FF;
+    width: 12em;
+    height: 3em;
+    margin-right: 1em; 
+}
+
+.cardProyect2 .botones .demo a 
+{
+    text-decoration: none;
+    color: #0000FF;
+}
+
+.cardProyect2 .botones .demo:hover
+{
+    background-color: #F5F5F5;
+    color: #000;
+    font-weight: bold;
+}
+
+/* Estilo Formulario Contacto */
+#contacto
+{
+    width: 100%;
+    height: auto;
+    background-color: #F5F5F5;
+    display: flex;
+}
+
+.imgContacto
+{
+    width: 25%;
+    margin: auto;
+}
+
+#form
+{
+    width: 40%;
+    margin: 2em;
+}
+
+.encabezado h2
+{
+    font-size: 2em;
+    font-weight: bold;
+    margin: .5em 0;
+}
+
+.encabezado p
+{
+    font-size: 1em;
+    font-style: italic;
+}
+
+#datos
+{
+    margin-top: 1em;
+    font-size: .8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ingresoDato
+{
+    margin: .5em 0;
+    width: 80%;
+    height: 2.5em;
+    align-items: flex-start;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px 5px;
+}
+
+#enviar {
+    width: 12em;
+    height: 3em;
+    margin: 0 auto;
+    margin-top: 2em;
+    background-color: #0000FF;
+    color: #FFF;
+    border: none;
+    align-items: center;
+}
+
+#enviar:hover {
+    background-color: #FFF;
+    color: #0000FF;
+    font-weight: bold;
+    border: 3px solid #0000FF;
+    transition: 300ms;
+}
+
+/* Estilo Footer  */
+footer {
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    padding-top: 2em;
+    background-color: #0000
+    color: #FFF;
+}
+
+/* Estilo Pagina CV */
+.bodyCv {
+    height: 190vh;
+}

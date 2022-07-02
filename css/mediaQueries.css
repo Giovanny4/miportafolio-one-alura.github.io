@@ -1,0 +1,128 @@
+@media screen and (max-width: 992px) {
+    header {
+        height: 5em;
+        align-items: center;
+        padding-top: 0.5em;
+    }
+    .github {
+        margin: 1em 0;
+    }
+    .botones {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+@media screen and (max-width: 768px) {
+    #banner {
+        height: auto;
+    }
+    .contenedorTextoBanner > div {
+        margin: 1em 0;
+    }
+    #about {
+        height: auto;
+    }
+    #skills {
+        height: auto;
+    }
+    .containerSkillsIt, .containerSkillsLive h1 {
+        margin: 0.5em;
+        padding-bottom: 1em;
+    }
+    .cardSkill, .cardSkillLive, .cardFormacion {
+        margin: 1em 0;
+    }
+    #formacion {
+        height: auto;
+        padding: 1em 0 1em 0;
+    }
+}
+@media screen and (max-width: 576px) {
+    header {
+        height: auto;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin: 1em 0;
+        padding-bottom: 1em;
+    }
+    nav .links {
+        width: 90%;
+        margin: 0 auto;
+    }
+    #banner {
+        flex-direction: column;
+    }
+    .foto {
+        width: 50%;
+    }
+    .tituloPrincipal h1 {
+        font-size: 3em;
+        font-weight: bold;
+    }
+    .bajada h2 {
+        font-size: 1.5em;
+        font-style: italic;
+    }
+    .vinculosBanner {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        font-size: 1.5em;
+        padding: 0.5em;
+    }
+    .vinculosBanner li {
+        margin: 0.5em 0;
+    }
+    #about {
+        height: auto;
+    }
+    .sobreMi {
+        height: 100%;
+    }
+    .textoAbout {
+        height: auto;
+        padding-bottom: 1em;
+    }
+    .img {
+        width: 100%;
+    }
+    .cardProject {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .cardProjectIzq {
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .cardProjectIzq .img {
+        margin-left: 0;
+        width: 80%;    
+    }
+    .cardProject .img {
+        margin-left: 0;
+        width: 80%;
+    }
+    #contacto {
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        margin: 2em auto;
+    }
+    .imgContacto {
+        width: 100%;
+    }
+    #form {
+        width: 100%;
+    }
+    .encabezado p {
+        width: 90%;
+
+    }
+
+}
